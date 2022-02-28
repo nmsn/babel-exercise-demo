@@ -1,0 +1,19 @@
+{
+  "name": "babel-exercise-demo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "rm -rf lib && babel src/index.js -d lib",
+    "test": "babel test/index.js -d test/compiled --watch"
+  },
+  "author": "nmsn",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5"
+  }
+}
