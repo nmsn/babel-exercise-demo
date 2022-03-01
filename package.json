@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "rm -rf lib && babel src/index.js -d lib",
+    "build": "rm -rf lib && babel test/index2.js -d lib",
     "test": "babel test/index.js -d test/compiled --watch"
   },
   "author": "nmsn",
