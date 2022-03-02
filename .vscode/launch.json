@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "name": "src/track/main.js",
+      "program": "${workspaceFolder}/src/track/main.js",
+      "request": "launch",
+      "type": "node"
+    }
+  ]
+}
